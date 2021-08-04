@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>エントリーフォーム</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="p-4 xl:pt-8 xl:px-40">
+      <div class="card col-span-1 row-span-1 shadow-lg xl:col-span-2 bg-base-200 shadow-2xl">
+        <div class="card-body py-6">
+          <h2 class="my-4 xl:mb-8 text-4xl font-bold card-title text-center">
+            大会〇〇　エントリー
+          </h2>
+          <div class="grid grid-cols-1 gap-6 xl:grid-cols-2 mb-20">
+            <div class="flex flex-col">
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">チーム名</span>
+                </label>
+                <input
+                  type="text"
+                  placeholder="チーム名を入力してください"
+                  class="input input-accent input-bordered"
+                />
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">読み仮名</span>
+                </label>
+                <input
+                  type="text"
+                  placeholder="読み仮名を入力してください"
+                  class="input input-accent input-bordered"
+                />
+              </div>
+            </div>
+            <div class="form-control">
+              <label class="label">
+                <span class="label-text">意気込み</span>
+              </label>
+              <textarea
+                class="textarea h-24 xl:h-full textarea-bordered textarea-accent"
+                placeholder="大会への意気込みを入力してください"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 gap-6 xl:grid-cols-3">
+            <div class="card bg-base-100 px-4">
+              <h4 class="my-4 text-2xl font-bold card-title text-center">プレイヤー１</h4>
+              <div class="form-control mb-4">
+                <label class="label">
+                  <span class="label-text">プレイヤー名</span>
+                </label>
+                <input
+                  type="text"
+                  placeholder="プレイヤー名を入力してください"
+                  class="input input-accent input-bordered"
+                />
+              </div>
+              <div class="form-control mb-4">
+                <label class="label">
+                  <span class="label-text">読み仮名</span>
+                </label>
+                <input
+                  type="text"
+                  placeholder="読み仮名を入力してください"
+                  class="input input-accent input-bordered"
+                />
+              </div>
+              <div class="form-control mb-4">
+                <label class="label">
+                  <span class="label-text">ランク</span>
+                </label>
+                <select class="select select-bordered select-accent w-full">
+                  <option disabled="disabled" selected="selected">ランクを選択</option>
+                  <option value="1">Supersonic Legend</option>
+                  <option value="2">Grand Champion III</option>
+                  <option value="3">Grand Champion II</option>
+                  <option value="4">Grand Champion I</option>
+                  <option value="5">Champion III</option>
+                  <option value="6">Champion II</option>
+                  <option value="7">Champion I</option>
+                  <option value="8">Diamond III</option>
+                  <option value="9">Diamond II</option>
+                  <option value="10">Diamond I</option>
+                  <option value="11">Platinum III</option>
+                  <option value="12">Platinum II</option>
+                  <option value="13">Platinum I</option>
+                  <option value="14">Gold III</option>
+                  <option value="15">Gold II</option>
+                  <option value="16">Gold I</option>
+                  <option value="17">Silver III</option>
+                  <option value="18">Silver II</option>
+                  <option value="19">Silver I</option>
+                  <option value="20">Bronze III</option>
+                  <option value="21">Bronze II</option>
+                  <option value="22">Bronze I</option>
+                  <option value="23">Unranked</option>
+                </select>
+              </div>
+              <div class="form-control mb-4">
+                <label class="label">
+                  <span class="label-text">プラットフォーム</span>
+                </label>
+                <select class="select select-bordered select-accent w-full">
+                  <option disabled="disabled" selected="selected">プラットフォームを選択</option>
+                  <option value="pc">PC</option>
+                  <option value="playstation4">PS4</option>
+                  <option value="xbox_one">Xbox One</option>
+                  <option value="nintendo_switch">Nintendo Switch</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="card bg-base-100 px-4">
+              <h4 class="my-4 text-2xl font-bold card-title text-center">プレイヤー２</h4>
+              <div class="form-control mb-4">
+                <label class="label">
+                  <span class="label-text">プレイヤー名</span>
+                </label>
+                <input
+                  type="text"
+                  placeholder="プレイヤー名を入力してください"
+                  class="input input-accent input-bordered"
+                />
+              </div>
+              <div class="form-control mb-4">
+                <label class="label">
+                  <span class="label-text">読み仮名</span>
+                </label>
+                <input
+                  type="text"
+                  placeholder="読み仮名を入力してください"
+                  class="input input-accent input-bordered"
+                />
+              </div>
+              <div class="form-control mb-4">
+                <label class="label">
+                  <span class="label-text">ランク</span>
+                </label>
+                <select class="select select-bordered select-accent w-full">
+                  <option disabled="disabled" selected="selected">ランクを選択</option>
+                  <option value="1">Supersonic Legend</option>
+                  <option value="2">Grand Champion III</option>
+                  <option value="3">Grand Champion II</option>
+                  <option value="4">Grand Champion I</option>
+                  <option value="5">Champion III</option>
+                  <option value="6">Champion II</option>
+                  <option value="7">Champion I</option>
+                  <option value="8">Diamond III</option>
+                  <option value="9">Diamond II</option>
+                  <option value="10">Diamond I</option>
+                  <option value="11">Platinum III</option>
+                  <option value="12">Platinum II</option>
+                  <option value="13">Platinum I</option>
+                  <option value="14">Gold III</option>
+                  <option value="15">Gold II</option>
+                  <option value="16">Gold I</option>
+                  <option value="17">Silver III</option>
+                  <option value="18">Silver II</option>
+                  <option value="19">Silver I</option>
+                  <option value="20">Bronze III</option>
+                  <option value="21">Bronze II</option>
+                  <option value="22">Bronze I</option>
+                  <option value="23">Unranked</option>
+                </select>
+              </div>
+              <div class="form-control mb-4">
+                <label class="label">
+                  <span class="label-text">プラットフォーム</span>
+                </label>
+                <select class="select select-bordered select-accent w-full">
+                  <option disabled="disabled" selected="selected">プラットフォームを選択</option>
+                  <option value="pc">PC</option>
+                  <option value="playstation4">PS4</option>
+                  <option value="xbox_one">Xbox One</option>
+                  <option value="nintendo_switch">Nintendo Switch</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="card bg-base-100 px-4">
+              <h4 class="my-4 text-2xl font-bold card-title text-center">プレイヤー３</h4>
+              <div class="form-control mb-4">
+                <label class="label">
+                  <span class="label-text">プレイヤー名</span>
+                </label>
+                <input
+                  type="text"
+                  placeholder="プレイヤー名を入力してください"
+                  class="input input-accent input-bordered"
+                />
+              </div>
+              <div class="form-control mb-4">
+                <label class="label">
+                  <span class="label-text">読み仮名</span>
+                </label>
+                <input
+                  type="text"
+                  placeholder="読み仮名を入力してください"
+                  class="input input-accent input-bordered"
+                />
+              </div>
+              <div class="form-control mb-4">
+                <label class="label">
+                  <span class="label-text">ランク</span>
+                </label>
+                <select class="select select-bordered select-accent w-full">
+                  <option disabled="disabled" selected="selected">ランクを選択</option>
+                  <option value="1">Supersonic Legend</option>
+                  <option value="2">Grand Champion III</option>
+                  <option value="3">Grand Champion II</option>
+                  <option value="4">Grand Champion I</option>
+                  <option value="5">Champion III</option>
+                  <option value="6">Champion II</option>
+                  <option value="7">Champion I</option>
+                  <option value="8">Diamond III</option>
+                  <option value="9">Diamond II</option>
+                  <option value="10">Diamond I</option>
+                  <option value="11">Platinum III</option>
+                  <option value="12">Platinum II</option>
+                  <option value="13">Platinum I</option>
+                  <option value="14">Gold III</option>
+                  <option value="15">Gold II</option>
+                  <option value="16">Gold I</option>
+                  <option value="17">Silver III</option>
+                  <option value="18">Silver II</option>
+                  <option value="19">Silver I</option>
+                  <option value="20">Bronze III</option>
+                  <option value="21">Bronze II</option>
+                  <option value="22">Bronze I</option>
+                  <option value="23">Unranked</option>
+                </select>
+              </div>
+              <div class="form-control mb-4">
+                <label class="label">
+                  <span class="label-text">プラットフォーム</span>
+                </label>
+                <select class="select select-bordered select-accent w-full">
+                  <option disabled="disabled" selected="selected">プラットフォームを選択</option>
+                  <option value="pc">PC</option>
+                  <option value="playstation4">PS4</option>
+                  <option value="xbox_one">Xbox One</option>
+                  <option value="nintendo_switch">Nintendo Switch</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="justify-center space-x-2 card-actions">
+            <button class="btn btn-accent">登録</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
